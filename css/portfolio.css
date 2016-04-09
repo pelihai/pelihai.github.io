@@ -1,0 +1,15 @@
+
+  /* class selector */
+   .blue {
+       color: blue;
+   }
+
+   /* id selector */
+   #blue {
+       color: blue;
+   }
+
+   /* tag selector */
+   h1 {
+       color: blue;
+   } 
