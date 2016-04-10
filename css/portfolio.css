@@ -1,30 +1,29 @@
 
-  * { margin: 0; padding: 0; }
-
-  /* class selector */
-   .blue {
-       color: blue;
+    * {
+     margin: 0;
+     padding: 0;
    }
-
-   /* id selector */
-   #blue {
-       color: blue;
-   }
-
-   /* tag selector */
-   h1 {
-       color: blue;
-   } 
 
    body {
      background-color: #dfdfdf;
      color: #333333;
      font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
    }
-    .header {
+
+   a {
+     color: #019cdb;
+     text-decoration: none;
+   }
+
+   a:hover {
+     color: #48b2e8;
+   }
+
+   .header {
      border-top: solid 8px #019cdb;
    }
-    .nav {
+
+   .nav {
      margin-top: 12px;
      margin-left: 10%;
    }
@@ -33,4 +32,37 @@
      list-style: none;
      display: inline;
      margin-right: 12px;
+   }
+
+   .title {
+     color: #019cdb;
+     text-transform: uppercase;
+     letter-spacing: 3px;
+   }
+
+   .main {
+     font-size: 78px;
+   }
+
+   .sub {
+     font-size: 57px;
+   }
+
+   .footer-sub {
+     font-size: 30px;
+   }
+
+   .button {
+     border: 2px solid #019cdb;
+     color: #019cdb;
+     display: inline-block; /* To wrap the border just around the content */
+     font-size: 20px;
+     margin-top: 12px;
+     padding: 12px 30px;
+   }
+
+   .button:hover {
+     background-color: #019cdb;
+     color: #dfdfdf;
+     cursor: pointer;
    }
